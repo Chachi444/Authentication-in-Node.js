@@ -1,0 +1,31 @@
+{
+  "name": "authentication-in-node",
+  "version": "1.0.0",
+  "description": "User Authentication & Project Kickoff: Secure Login Implementation in Node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chachi444/Authentication-in-Node.js.git"
+  },
+  "keywords": [],
+  "author": "Charity Okechukwu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chachi444/Authentication-in-Node.js/issues"
+  },
+  "homepage": "https://github.com/Chachi444/Authentication-in-Node.js#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.14.2",
+    "nodemailer": "^7.0.3",
+    "nodemon": "^3.1.10"
+  }
+}

@@ -56,9 +56,9 @@ const authorization  = async (req, res, next) => {
         return res.status(404).json({message: "User not found"})
     }
  
-    if( !user.role !== "admin") { 
-        return res.status(403).json({message: "Invalid Authorization"})
-    }
+    // if(user.role !== "admin") { 
+    //     return res.status(403).json({message: "Invalid Authorization"})
+    // }
 
     req.user = user
 

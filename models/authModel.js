@@ -25,6 +25,11 @@ const authSchema = new mongoose.Schema({
     verified: {
         type: Boolean,
         default: false,
+    },
+
+    role: {
+        type: String,
+        default: "user",
     }
 
 }, { timestamps: true });
